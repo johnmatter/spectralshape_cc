@@ -5,7 +5,7 @@ wav = ººsiblingºº("media/wren.wav")
 
 fnt = "Webdings"
 
-@animation((1080, 9/16*1080), tl=Timeline(120, 30), bg=0, audio=wav)
+@animation((1080, 9/16*1080), tl=mt, bg=0, audio=wav)
 def cc(f):
     # cache(?) midi data for this frame
     mt.hold(f.i)
